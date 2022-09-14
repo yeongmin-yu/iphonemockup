@@ -1,3 +1,58 @@
-.ug-thumbs-grid{
-    left : 0 !important;
+div.gallery {
+    border: 1px solid #ccc;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+}
+
+/******
+
+// 뭐 이렇게 특정 class만 지정을 해도 되고..
+
+.responsive {
+
+    box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+} 
+
+*******/
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%; 
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 100%; 
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
