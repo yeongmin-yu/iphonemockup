@@ -1,15 +1,25 @@
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid black;
+    margin: auto 20px;
 }
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid #777;
 }
 div.gallery img {
     width: 100%;
     height: auto;
+ 
 }
 div.desc {
+    margin-top:20px;
     padding: 15px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+}
+
+h3{
+    color:white;
     text-align: center;
 }
 
@@ -19,6 +29,7 @@ div.desc {
     -webkit-box-sizing: border-box;
 
     -moz-box-sizing: border-box;
+    background-color: black;
 }
 
 /******
@@ -56,3 +67,4 @@ div.desc {
     display: table;
     clear: both;
 }
+
