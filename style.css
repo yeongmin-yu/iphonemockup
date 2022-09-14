@@ -16,9 +16,10 @@ div.desc {
     text-align: center;
     color: white;
     font-style: bold;
+    font-size:30px;
 }
 
-h3{
+h1{
     color:white;
     text-align: center;
 }
